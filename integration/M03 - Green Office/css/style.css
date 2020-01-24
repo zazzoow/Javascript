@@ -1,0 +1,71 @@
+html {
+  background-image: url("../img/fond.png");
+}
+body {
+  background-color: white;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+header {
+  
+  background-color: #b8cb21;
+  color: black;
+  padding-bottom:8%;
+}
+
+nav {
+  
+  margin-left:30%;
+  width: 65%;
+  margin-top:5%;
+  text-align: right;
+  font-weight:100%;
+  font-weight: normal;
+
+}
+a {
+  font-size: 110%;
+  color: #2c4726;
+  font-family: 'Oswald',sans-serif;
+  padding: 3%;
+  text-align:; justify;
+}
+
+main {
+  color: #666666;
+  font-family: 'arial', sans-serif;
+  font-weight: lighter;
+  padding-top: 3%;
+  padding-left:5%;
+  padding-right:5%;
+  margin-top: -1.5%;
+  padding-bottom:5%;
+}
+
+.icon {
+  font-family:'Oswald',sans-serif;
+  font-weight: normal;
+  color: rgb(186, 199, 68);
+}
+
+.txt {
+  padding
+}
+
+.float {
+  float: left;
+  padding-right: 1%;
+}
+
+.read {
+  color: white;
+  background-color : #b8cb21;
+  float: right;
+  padding: 1%;
+}
+
+article {
+  overflow: hidden;
+  
+}

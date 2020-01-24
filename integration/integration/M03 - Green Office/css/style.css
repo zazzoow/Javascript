@@ -1,0 +1,41 @@
+html {
+  background-image: url("../img/fond.png");
+}
+
+body {
+  font-family:'arial',sans-serif;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding:3%;
+}
+
+header {
+  color: black;
+}
+
+nav {
+  font-family:'Oswald',sans-serif;
+  margin-top:2.3em;
+  float: right;
+  color: vert;
+  font-size: 1.2em;
+  font-weight:1.2em;
+  font-weight: normal;
+}
+
+a {
+  padding: 1.3em;
+}
+
+main {
+
+  margin-top: 20%;
+}
+
+.float {
+  float: left;
+}
+article {
+  clear:both;
+}
