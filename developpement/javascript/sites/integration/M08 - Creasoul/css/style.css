@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size:1.6rem;
+}
+
+img {
+    max-width : 100%;
+    height : auto;
+    vertical-align : top;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+}
+
+h1,h2 {
+    padding-bottom : 1rem;
+    border-bottom : 1px solid rgb(36, 167, 147);
+    font-family: "PT Sans Narrow";
+    font-weight: normal;
+    color: rgb(36, 167, 147);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+a { 
+    color: rgb(36, 167, 147);
+    
+}
+
+
+header {
+    text-align: center;
+}
+
+
+nav {
+    background-color: rgb(36, 167, 147);
+    color: white;
+}
+
+
+
+
+nav a { 
+    font-family: "PT Sans Narrow";
+    display: inline-block;
+    font-size: 150%;
+    padding: 2em 0;
+    width: 33.33%;
+    color: white;
+}
+
+section { 
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+aside {
+    color: black;
+    background-color: rgb(182, 219, 178);
+    margin-left: 5%;
+    width: 25%;
+    display: inline-block;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+footer {
+  
+}
+
+@media screen and (max-width: 1023px) {
+
+    nav a  {
+        
+        width: 100%;
+        display: block;
+    }
+    
+}
+
+

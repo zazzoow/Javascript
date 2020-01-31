@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "blacksword";
+    src: url("fonts/Blacksword.otf");
+}
+
+body {
+    margin: auto;
+    font-family: 'Open Sans', serif;
+    width: 100%;
+}
+
+header {
+    color: white;
+    background-image: url("fond.jpg");
+    background-repeat: no-repeat;
+    background-position : center;
+    background-size: cover;
+    height: 60vh;
+}
+
+nav {
+    font-size: 150%;
+    text-align: center;
+}
+
+nav a {
+    display : inline-block;
+    list-style-type: none;
+}

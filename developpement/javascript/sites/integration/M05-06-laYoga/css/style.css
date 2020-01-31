@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "blacksword";
+    src: url("fonts/Blacksword.otf");
+}
+
+
+
+body {
+    margin: auto;
+    font-family: 'Open Sans', serif;
+    width: 100%;
+}
+
+
+    
+
+header {
+    color: white;
+    background-image: url("fond.jpg");
+    background-repeat: no-repeat;
+    background-position : center;
+    background-size: cover;
+    height: 60vh;
+}
+
+nav {
+    font-size: 150%;
+    text-align: center;
+}
+
+nav a {
+    display : inline-block;
+    list-style-type: none;
+}
+
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+   color: black;
+}
+
+
+nav .fa {
+    display: block;
+}
+
+
+.promo {
+    background-color : rgba(0,0,0,0.1);
+    margin-top: 3%;
+    padding: 0.2%;
+    text-align: center;
+}
+
+h1 {
+  font-size: 400%;    
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h1,h2,h3,caption {
+    margin-top: 5%;
+    font-family: "blacksword",sans-serif;
+    text-align: center;
+    font-weight : normal;
+}
+
+.cadre {
+    overflow : hidden;
+    margin: auto;
+    width: 90%;
+}
+
+
+.float-left {
+    float: left;
+    padding-right: 3%;
+    padding-bottom:6%;
+}
+
+.hr0 {
+    color: red;
+    margin: 0;
+    border: 0.5px solid rgb(218, 195, 231);
+}
+
+.float-right {
+    float: right;
+    margin-right: 5%;
+}
+
+.menu { 
+    margin-top: 3%;
+    background-image: url("../img/background_section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.menu .programme {
+    color: white;
+    float: left; 
+    display : inline-block;
+    text-align: center;
+    margin: auto;
+    width: 23%;
+    padding-left: 7%;
+    padding-top: 1%;
+    
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+    height: 50vh;
+    padding-top: 100px;
+    
+}
+
+caption {
+    font-size: 180%;
+    color: white;
+    background-color: rgb(194, 167, 220);
+    padding: 1.5%;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+tr:nth-child(odd) {
+   background-color: rgb(251, 249, 251);
+   
+}
+
+td:nth-child(even) {
+   
+}
+form {
+   
+   margin: auto;
+   width: 90%;
+   padding-top: 3%;
+}
+
+legend {
+    font-family:"Playfair Display";
+}
+
+fieldset {
+    
+    margin-top: 2%;
+    text-align: center;
+    line-height: 200%;
+}
+
+#secondname:hover ,#email:hover , #firstname:hover {
+    background-color: rgb(136, 99, 190);
+}
+
+select {
+    width: 90%;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+    clear: both;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    line-height: 80%;
+}
+
